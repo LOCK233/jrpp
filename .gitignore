@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local datasets and reference artifacts.
+data/*
+!data/README.md
+data_full/
+*.pdf
+
+# Training/evaluation outputs.
+results/
+results*/
+RESULT/
+RESULT*/
+log/
+logs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.log
+events.out.tfevents*
+
+.env
+.venv
+*.egg-info/
